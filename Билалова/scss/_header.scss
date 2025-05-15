@@ -1,0 +1,40 @@
+.header {
+  gap: 822px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  padding: 40px;
+  nav {
+    display: flex;
+    ul {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      li {
+        list-style: none;
+        a {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 143%;
+          text-align: center;
+          color: #156963;
+          text-decoration: none;
+          
+        }
+        button {
+          background: #156963;
+          padding: 8px 20px;
+          width: 111px;
+          height: 36px;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 143%;
+          text-align: center;
+          color: #fff;
+          border: 0px solid;
+        }
+      }
+    }
+  }
+}
